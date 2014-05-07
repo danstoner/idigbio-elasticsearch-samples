@@ -13,7 +13,7 @@ that may or may not get added to the official docs.
 
 ## Examples
 
-### Three ways to fetch a specific record based on iDigBio UUID.
+#### Three ways to fetch a specific record based on iDigBio UUID.
 
 - Using the API (not Elasticsearch):
 
@@ -39,7 +39,7 @@ $ cat uuid.json
 $ curl -s -XGET https://search.idigbio.org/idigbio/records/_search -d@uuid.json
 ```
 
-### Search using a json query file such as county.json:
+#### Search using a json query file such as county.json:
 
 ```
 $ curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@county.json  | json_pp | egrep "\"county\""
@@ -72,6 +72,6 @@ $ curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@doesnote
 
 ```
 
-### Search for specific counties in a specific state that have an image associated with them:
+#### Search for specific counties in a specific state that have an image associated with them:
 
 TBD
