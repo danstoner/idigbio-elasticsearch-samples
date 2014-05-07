@@ -1,5 +1,5 @@
-{ 
-    "filter" : { 
-            "term"  :  { "county" : "hocking" } 
-    }                                                              
+{
+    "filter" : {
+	"term"  :  { "county" : "hocking" }
+    }
 }
