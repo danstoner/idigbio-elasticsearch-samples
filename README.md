@@ -1,3 +1,11 @@
+The iDigBio API is documented in the wiki:
+
+https://www.idigbio.org/wiki/index.php/IDigBio_API
+
+
+The idigbio-elasticsearch-samples project is a bit of a scratch pad or placeholder for additional examples, etc.
+that may or may not get added to the official docs.
+
 
 To execute a query using URI search interface:
 
