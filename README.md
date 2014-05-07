@@ -6,16 +6,17 @@ curl -s -XGET https://search.idigbio.org/idigbio/records/_search?q=uuid:a5eef658
 
 To execute a query using a json file such as county.json:
 
-$ curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@doesnotexist.json  | json_pp | egrep "\"county\""
-               "county" : "palo pinto",
-               "county" : "elk",
-               "county" : "osage",
-               "county" : "greenwood",
-               "county" : "pittsburg",
-               "county" : "chase",
-               "county" : "jack",
-               "county" : "cacadu district",
-               "county" : "douglas",
+$  curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@county.json  | json_pp | egrep "\"county\""
+               "county" : "hocking",
+               "county" : "hocking",
+               "county" : "hocking",
+               "county" : "hocking",
+               "county" : "hocking",
+               "county" : "hocking",
+               "county" : "hocking",
+               "county" : "hocking",
+               "county" : "hocking",
+               "county" : "hocking",
 
 
 NOTE if the file designated by the @ sign does not exist the curl will proceed anyway and a default query against
