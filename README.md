@@ -9,26 +9,21 @@ In addition to the API, an Elasticsearch interface is provided for advanced user
 This idigbio-elasticsearch-samples project is a bit of a scratch pad or placeholder for additional examples, etc.
 that may or may not get added to the official docs.
 
-*NOTE:* Some of the example json query files do not work!
+*NOTE:* Some of the example json query files do not work!  Which is why they are in the samples_in_progress directory.
 
 ## Examples
 
 - Three ways to fetch a specific record based on iDigBio UUID.
 
- 1. Using the API (not Elasticsearch):
-
+1. Using the API (not Elasticsearch):
 ```
 $ curl -s -XGET https://api.idigbio.org/v1/records/0cec43d8-9ad5-478a-bea1-397ab5cc4430
-
 ```
-
- 2. Using the Elasticsearch URL interface with query parameter:
-
+2. Using the Elasticsearch URL interface with query parameter:
 ```
 $ curl -s -XGET https://search.idigbio.org/idigbio/records/_search?q=uuid:0cec43d8-9ad5-478a-bea1-397ab5cc4430
 ```
-
- 3. Using the Elasticsearch with json-formatted filter query in the message body:
+3. Using the Elasticsearch with json-formatted filter query in the message body:
 
 ```
 $ cat uuid.json
@@ -39,7 +34,6 @@ $ cat uuid.json
 }
 $ curl -s -XGET https://search.idigbio.org/idigbio/records/_search -d@uuid.json
 ```
-
 
 - Search using a json query file such as county.json:
 
