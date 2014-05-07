@@ -1,30 +1,50 @@
+## Intro
+
 The iDigBio API and working examples are documented in the wiki:
 
 https://www.idigbio.org/wiki/index.php/IDigBio_API
 
+In addition to the API, an Elasticsearch interface is provided for advanced users.
 
-The idigbio-elasticsearch-samples project is a bit of a scratch pad or placeholder for additional examples, etc.
+This idigbio-elasticsearch-samples project is a bit of a scratch pad or placeholder for additional examples, etc.
 that may or may not get added to the official docs.
 
 *NOTE:* Some of the example json query files do not work!
 
+## Examples
 
-- To fetch a record by iDigBio UUID from the API:
+- Three ways to fetch a specific record based on iDigBio UUID.
 
-```
-curl -s -XGET https://api.idigbio.org/v1/records/0cec43d8-9ad5-478a-bea1-397ab5cc4430
-```
-
-- To execute a query for that same UUID using the Elasticsearch URL interface:
+1. Using the API (not Elasticsearch):
 
 ```
-curl -s -XGET https://search.idigbio.org/idigbio/records/_search?q=uuid:0cec43d8-9ad5-478a-bea1-397ab5cc4430
+$ curl -s -XGET https://api.idigbio.org/v1/records/0cec43d8-9ad5-478a-bea1-397ab5cc4430
+
 ```
+
+2. Using the Elasticsearch URL interface with query parameter:
+
+```
+$ curl -s -XGET https://search.idigbio.org/idigbio/records/_search?q=uuid:0cec43d8-9ad5-478a-bea1-397ab5cc4430
+```
+
+3. Using the Elasticsearch with json-formatted filter query in the message body:
+
+```
+$ cat uuid.json
+{
+    "filter" : {
+    "term"  :  { "uuid" : "0cec43d8-9ad5-478a-bea1-397ab5cc4430" }
+    }
+}
+$ curl -s -XGET https://search.idigbio.org/idigbio/records/_search -d@uuid.json
+```
+
 
 - To execute a query using a json file such as county.json:
 
 ```
-$  curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@county.json  | json_pp | egrep "\"county\""
+$ curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@county.json  | json_pp | egrep "\"county\""
                "county" : "hocking",
                "county" : "hocking",
                "county" : "hocking",
