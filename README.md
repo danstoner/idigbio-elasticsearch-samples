@@ -15,20 +15,20 @@ that may or may not get added to the official docs.
 
 - Three ways to fetch a specific record based on iDigBio UUID.
 
-1. Using the API (not Elasticsearch):
+ 1. Using the API (not Elasticsearch):
 
 ```
 $ curl -s -XGET https://api.idigbio.org/v1/records/0cec43d8-9ad5-478a-bea1-397ab5cc4430
 
 ```
 
-2. Using the Elasticsearch URL interface with query parameter:
+ 2. Using the Elasticsearch URL interface with query parameter:
 
 ```
 $ curl -s -XGET https://search.idigbio.org/idigbio/records/_search?q=uuid:0cec43d8-9ad5-478a-bea1-397ab5cc4430
 ```
 
-3. Using the Elasticsearch with json-formatted filter query in the message body:
+ 3. Using the Elasticsearch with json-formatted filter query in the message body:
 
 ```
 $ cat uuid.json
@@ -41,20 +41,20 @@ $ curl -s -XGET https://search.idigbio.org/idigbio/records/_search -d@uuid.json
 ```
 
 
-- To execute a query using a json file such as county.json:
+- Search using a json query file such as county.json:
 
 ```
 $ curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@county.json  | json_pp | egrep "\"county\""
-               "county" : "hocking",
-               "county" : "hocking",
-               "county" : "hocking",
-               "county" : "hocking",
-               "county" : "hocking",
-               "county" : "hocking",
-               "county" : "hocking",
-               "county" : "hocking",
-               "county" : "hocking",
-               "county" : "hocking",
+               "county" : "fairfield",
+               "county" : "fairfield",
+               "county" : "fairfield",
+               "county" : "fairfield",
+               "county" : "fairfield",
+               "county" : "fairfield",
+               "county" : "fairfield",
+               "county" : "fairfield",
+               "county" : "fairfield",
+               "county" : "fairfield",
 ```
 
 *NOTE:* If the file designated by the @ sign does not exist the curl will proceed anyway and a default query against
@@ -73,3 +73,7 @@ $ curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@doesnote
                "county" : "douglas",
 
 ```
+
+- Search for specific counties in a specific state that have an image associated with them:
+
+TBD
