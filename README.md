@@ -9,13 +9,19 @@ that may or may not get added to the official docs.
 *NOTE:* Some of the example json query files do not work!
 
 
-To execute a query using URI search interface:
+- To fetch a record by iDigBio UUID from the API:
 
 ```
-curl -s -XGET https://search.idigbio.org/idigbio/records/_search?q=uuid:a5eef658-07c3-4c45-91ef-17f21f7ccff8
+curl -s -XGET https://api.idigbio.org/v1/records/0cec43d8-9ad5-478a-bea1-397ab5cc4430
 ```
 
-To execute a query using a json file such as county.json:
+- To execute a query for that same UUID using the Elasticsearch URL interface:
+
+```
+curl -s -XGET https://search.idigbio.org/idigbio/records/_search?q=uuid:0cec43d8-9ad5-478a-bea1-397ab5cc4430
+```
+
+- To execute a query using a json file such as county.json:
 
 ```
 $  curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@county.json  | json_pp | egrep "\"county\""
