@@ -13,17 +13,21 @@ that may or may not get added to the official docs.
 
 ## Examples
 
-- Three ways to fetch a specific record based on iDigBio UUID.
+### Three ways to fetch a specific record based on iDigBio UUID.
 
-1. Using the API (not Elasticsearch):
+- Using the API (not Elasticsearch):
+
 ```
 $ curl -s -XGET https://api.idigbio.org/v1/records/0cec43d8-9ad5-478a-bea1-397ab5cc4430
 ```
-2. Using the Elasticsearch URL interface with query parameter:
+
+- Using the Elasticsearch URL interface with query parameter:
+
 ```
 $ curl -s -XGET https://search.idigbio.org/idigbio/records/_search?q=uuid:0cec43d8-9ad5-478a-bea1-397ab5cc4430
 ```
-3. Using the Elasticsearch with json-formatted filter query in the message body:
+
+- Using the Elasticsearch with json-formatted filter query in the message body:
 
 ```
 $ cat uuid.json
@@ -35,7 +39,7 @@ $ cat uuid.json
 $ curl -s -XGET https://search.idigbio.org/idigbio/records/_search -d@uuid.json
 ```
 
-- Search using a json query file such as county.json:
+### Search using a json query file such as county.json:
 
 ```
 $ curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@county.json  | json_pp | egrep "\"county\""
@@ -68,6 +72,6 @@ $ curl -s -XGET 'https://search.idigbio.org/idigbio/records/_search' -d@doesnote
 
 ```
 
-- Search for specific counties in a specific state that have an image associated with them:
+### Search for specific counties in a specific state that have an image associated with them:
 
 TBD
