@@ -1,0 +1,217 @@
+{
+   "took" : 104,
+   "hits" : {
+      "max_score" : 1,
+      "hits" : [
+         {
+            "_source" : {
+               "recordids" : [
+                  "urn:uuid:ed5b69d9-1fe8-4da9-bc59-9a0ae54c615e"
+               ],
+               "family" : "brassicaceae",
+               "locality" : "ohio, hocking county, logan, 305 second street.",
+               "stateprovince" : "ohio",
+               "catalognumber" : "khd00031728",
+               "dqs" : 0.395348837209302,
+               "flags" : [],
+               "data" : {
+                  "idigbio:data" : {
+                     "dwc:reproductiveCondition" : "Flower and fruit",
+                     "dwc:day" : "14",
+                     "dwc:locality" : "Ohio, Hocking County, Logan, 305 Second Street.",
+                     "dwc:institutionCode" : "KHD",
+                     "dcterms:modified" : "2014-04-29 11:42:12",
+                     "dwc:scientificName" : "Iberis sempervirens",
+                     "dwc:basisOfRecord" : "PreservedSpecimen",
+                     "idigbio:version" : 6,
+                     "dwc:year" : "1966",
+                     "dwc:eventDate" : "1966-05-14",
+                     "idigbio:recordId" : "urn:uuid:ed5b69d9-1fe8-4da9-bc59-9a0ae54c615e",
+                     "dwc:municipality" : "Logan",
+                     "dwc:genus" : "Iberis",
+                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
+                     "symbiota:verbatimScientificName" : "Iberis sempervirens",
+                     "dwc:startDayOfYear" : "134",
+                     "dwc:occurrenceID" : "3292380",
+                     "dwc:stateProvince" : "Ohio",
+                     "idigbio:etag" : "d256bc3bfbf995dd8a3e687a187c07df5c1da7c7",
+                     "dwc:otherCatalogNumbers" : "18340",
+                     "dwc:catalogNumber" : "KHD00031728",
+                     "dwc:month" : "5",
+                     "idigbio:links" : {
+                        "mediarecord" : [
+                           "http://api.idigbio.org/v1/mediarecords/988759d5-138e-479c-9871-dbf88ebcbee8"
+                        ],
+                        "recordset" : [
+                           "http://api.idigbio.org/v1/recordsets/5835f642-2560-4e3e-9c25-741a12cc3fe8"
+                        ]
+                     },
+                     "dwc:scientificNameAuthorship" : "L.",
+                     "dwc:country" : "USA",
+                     "dwc:family" : "Brassicaceae",
+                     "dwc:specificEpithet" : "sempervirens",
+                     "dwc:collectionID" : "urn:uuid:ca77be98-2a59-4aa9-bfc1-5ea615f2e6b7",
+                     "dwc:recordedBy" : "Wm. G. Gambill",
+                     "dcterms:references" : "http://intermountainbiota.org/portal/collections/individual/index.php?occid=3292380",
+                     "idigbio:dateModified" : "2014-07-22T09:01:42.361Z",
+                     "dwc:county" : "Hocking County",
+                     "idigbio:recordIds" : [
+                        "urn:uuid:ed5b69d9-1fe8-4da9-bc59-9a0ae54c615e"
+                     ],
+                     "dwc:rights" : "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+                     "idigbio:uuid" : "b4f9bc89-c11e-4c39-aa89-72410e692cd8"
+                  },
+                  "idigbio:version" : 6,
+                  "idigbio:etag" : "d256bc3bfbf995dd8a3e687a187c07df5c1da7c7",
+                  "idigbio:recordIds" : [
+                     "urn:uuid:ed5b69d9-1fe8-4da9-bc59-9a0ae54c615e"
+                  ],
+                  "idigbio:links" : {
+                     "mediarecord" : [
+                        "http://api.idigbio.org/v1/mediarecords/988759d5-138e-479c-9871-dbf88ebcbee8"
+                     ],
+                     "recordset" : [
+                        "http://api.idigbio.org/v1/recordsets/5835f642-2560-4e3e-9c25-741a12cc3fe8"
+                     ]
+                  },
+                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
+                  "idigbio:dateModified" : "2014-07-22T09:01:42.361Z",
+                  "idigbio:uuid" : "b4f9bc89-c11e-4c39-aa89-72410e692cd8"
+               },
+               "institutioncode" : "khd",
+               "occurrenceid" : "3292380",
+               "etag" : "d256bc3bfbf995dd8a3e687a187c07df5c1da7c7",
+               "municipality" : "logan",
+               "mediarecords" : [
+                  "988759d5-138e-479c-9871-dbf88ebcbee8"
+               ],
+               "collector" : "wm. g. gambill",
+               "hasImage" : true,
+               "county" : "hocking county",
+               "scientificname" : "iberis sempervirens",
+               "country" : "usa",
+               "recordset" : "5835f642-2560-4e3e-9c25-741a12cc3fe8",
+               "genus" : "iberis",
+               "datemodified" : "2014-07-22",
+               "datecollected" : "1966-05-14",
+               "eventdate" : "1966-05-14",
+               "specificepithet" : "sempervirens",
+               "collectionid" : "urn:uuid:ca77be98-2a59-4aa9-bfc1-5ea615f2e6b7",
+               "uuid" : "b4f9bc89-c11e-4c39-aa89-72410e692cd8",
+               "basisofrecord" : "preservedspecimen"
+            },
+            "_type" : "records",
+            "_score" : 1,
+            "_id" : "b4f9bc89-c11e-4c39-aa89-72410e692cd8",
+            "_index" : "idigbio-1.4.0"
+         },
+         {
+            "_type" : "records",
+            "_source" : {
+               "institutioncode" : "khd",
+               "occurrenceid" : "3292620",
+               "data" : {
+                  "idigbio:etag" : "2207e7c22b6eb7c330d65baf396afcec460ec395",
+                  "idigbio:data" : {
+                     "idigbio:etag" : "2207e7c22b6eb7c330d65baf396afcec460ec395",
+                     "dwc:catalogNumber" : "KHD00032544",
+                     "dwc:month" : "5",
+                     "dwc:otherCatalogNumbers" : "18121",
+                     "dwc:occurrenceID" : "3292620",
+                     "dwc:startDayOfYear" : "134",
+                     "dwc:stateProvince" : "Ohio",
+                     "dwc:scientificNameAuthorship" : "(Schreb. ex Muhl.) Britton, Sterns & Poggenb.",
+                     "dwc:country" : "United States",
+                     "idigbio:links" : {
+                        "recordset" : [
+                           "http://api.idigbio.org/v1/recordsets/5835f642-2560-4e3e-9c25-741a12cc3fe8"
+                        ],
+                        "mediarecord" : [
+                           "http://api.idigbio.org/v1/mediarecords/f9c4fbd0-7929-4f42-8bf7-7b160cb04b16"
+                        ]
+                     },
+                     "dwc:recordedBy" : "William G. Gambill, Jr.",
+                     "dcterms:references" : "http://intermountainbiota.org/portal/collections/individual/index.php?occid=3292620",
+                     "dwc:collectionID" : "urn:uuid:ca77be98-2a59-4aa9-bfc1-5ea615f2e6b7",
+                     "dwc:family" : "Brassicaceae",
+                     "dwc:specificEpithet" : "bulbosa",
+                     "idigbio:uuid" : "f713ac44-c647-4ecd-a194-a2063cbd1b73",
+                     "dwc:county" : "Hocking County",
+                     "idigbio:dateModified" : "2014-07-22T09:15:44.924Z",
+                     "idigbio:recordIds" : [
+                        "urn:uuid:0630be1b-2b07-45fc-8dce-eeaa048924cd"
+                     ],
+                     "dwc:rights" : "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+                     "dwc:day" : "14",
+                     "dwc:reproductiveCondition" : "Flower and fruit",
+                     "dwc:locality" : "Roadside ditch along Ohio Route 56, 1/2 mile east of Orlando.",
+                     "dwc:basisOfRecord" : "PreservedSpecimen",
+                     "dcterms:modified" : "2014-07-03 00:00:00",
+                     "dwc:scientificName" : "Cardamine bulbosa",
+                     "dwc:institutionCode" : "KHD",
+                     "dwc:eventDate" : "1966-05-14",
+                     "dwc:year" : "1966",
+                     "idigbio:recordId" : "urn:uuid:0630be1b-2b07-45fc-8dce-eeaa048924cd",
+                     "idigbio:version" : 6,
+                     "symbiota:verbatimScientificName" : "Cardamine bulbosa",
+                     "dwc:genus" : "Cardamine",
+                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334"
+                  },
+                  "idigbio:version" : 6,
+                  "idigbio:uuid" : "f713ac44-c647-4ecd-a194-a2063cbd1b73",
+                  "idigbio:links" : {
+                     "recordset" : [
+                        "http://api.idigbio.org/v1/recordsets/5835f642-2560-4e3e-9c25-741a12cc3fe8"
+                     ],
+                     "mediarecord" : [
+                        "http://api.idigbio.org/v1/mediarecords/f9c4fbd0-7929-4f42-8bf7-7b160cb04b16"
+                     ]
+                  },
+                  "idigbio:recordIds" : [
+                     "urn:uuid:0630be1b-2b07-45fc-8dce-eeaa048924cd"
+                  ],
+                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
+                  "idigbio:dateModified" : "2014-07-22T09:15:44.924Z"
+               },
+               "collector" : "william g. gambill, jr.",
+               "etag" : "2207e7c22b6eb7c330d65baf396afcec460ec395",
+               "mediarecords" : [
+                  "f9c4fbd0-7929-4f42-8bf7-7b160cb04b16"
+               ],
+               "county" : "hocking county",
+               "hasImage" : true,
+               "locality" : "roadside ditch along ohio route 56, 1/2 mile east of orlando.",
+               "family" : "brassicaceae",
+               "recordids" : [
+                  "urn:uuid:0630be1b-2b07-45fc-8dce-eeaa048924cd"
+               ],
+               "catalognumber" : "khd00032544",
+               "stateprovince" : "ohio",
+               "dqs" : 0.372093023255814,
+               "flags" : [],
+               "uuid" : "f713ac44-c647-4ecd-a194-a2063cbd1b73",
+               "collectionid" : "urn:uuid:ca77be98-2a59-4aa9-bfc1-5ea615f2e6b7",
+               "basisofrecord" : "preservedspecimen",
+               "scientificname" : "cardamine bulbosa",
+               "country" : "united states",
+               "recordset" : "5835f642-2560-4e3e-9c25-741a12cc3fe8",
+               "datecollected" : "1966-05-14",
+               "datemodified" : "2014-07-22",
+               "genus" : "cardamine",
+               "specificepithet" : "bulbosa",
+               "eventdate" : "1966-05-14"
+            },
+            "_id" : "f713ac44-c647-4ecd-a194-a2063cbd1b73",
+            "_score" : 1,
+            "_index" : "idigbio-1.4.0"
+         }
+      ],
+      "total" : 2
+   },
+   "_shards" : {
+      "successful" : 10,
+      "failed" : 0,
+      "total" : 10
+   },
+   "timed_out" : false
+}
