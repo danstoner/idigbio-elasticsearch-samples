@@ -1,14 +1,14 @@
 {
     "filter" : {
 	"and" : [
-	    { "or" : [
-		{ "terms" : { "county" : [ "hocking county" , "fairfield county" ]}},
-		{ "terms" : { "county" : [ "hocking" , "fairfield" ]}}
-		]
-	    },
+	    { "term" : { "hasImage" : true }},
 	    { "term" : { "family" : "brassicaceae" }},
 	    { "term" : { "stateprovince" : "ohio" }},
-	    { "term" : { "hasImage" : true }}
+	    { "or" : [
+		{ "prefix" : { "county" : "fairfield"}},
+		{ "prefix" : { "county" : "hocking" }}
+		]
+	    }
 	]
     }
 }
