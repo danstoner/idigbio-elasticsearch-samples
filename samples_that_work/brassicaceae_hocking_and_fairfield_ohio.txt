@@ -5,9 +5,9 @@ brassicaceae_hocking_and_fairfield_ohio.txt - this file
 brassicaceae_hocking_and_fairfield_ohio.query.json - JSON query document
 brassicaceae_hocking_and_fairfield_ohio.results.json - the results in pretty-printed JSON
 
-Sample usage:
+Sample usage (includes piping output to a JSON pretty-print program):
 
-$ curl -s https://search.idigbio.org/idigbio/records/_search -d@brassicaceae_hocking_and_fairfield_ohio.query.json
+$ curl -s https://search.idigbio.org/idigbio/records/_search -d@brassicaceae_hocking_and_fairfield_ohio.query.json | json_pp
 
 
 Searches for specimen records of Family Brassicaceae from Hocking and Fairfield counties,
