@@ -1,0 +1,16 @@
+Example:  fairfield_county
+
+Files:
+fairfield_county.txt - this file
+fairfield_county.query.json - JSON query document
+fairfield_county.results.json - the results in pretty-printed JSON
+
+
+Searches for specimen records in the county "Fairfield".
+
+Does not filter by state our country.
+
+Sample usage:
+
+$ curl -s https://search.idigbio.org/idigbio/records/_search -d@fairfield_county.query.json
+
