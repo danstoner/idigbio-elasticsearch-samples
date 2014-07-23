@@ -1,1169 +1,217 @@
 {
-   "took" : 80,
+   "_shards" : {
+      "total" : 10,
+      "failed" : 0,
+      "successful" : 10
+   },
    "hits" : {
+      "total" : 2,
+      "max_score" : 1,
       "hits" : [
          {
-            "_type" : "records",
             "_index" : "idigbio-1.4.0",
+            "_score" : 1,
+            "_id" : "b4f9bc89-c11e-4c39-aa89-72410e692cd8",
+            "_type" : "records",
             "_source" : {
-               "hasImage" : false,
-               "class" : "insecta",
-               "flags" : [
-                  "geopoint_datum_missing"
-               ],
-               "locality" : "11km wnw brown creek campground",
-               "institutioncode" : "cas",
-               "eventdate" : "2007-04-29",
-               "dqs" : 0.558139534883721,
-               "genus" : "formica",
-               "order" : "hymenoptera",
-               "highertaxon" : "animalia;arthropoda;insecta;hymenoptera;hymenoptera;formicidae;formicinae",
-               "verbatimeventdate" : "29 apr 2007",
-               "specificepithet" : "densiventris",
-               "datemodified" : "2014-03-21",
-               "occurrenceid" : "cas:antweb:jtlc000006914",
-               "datecollected" : "2007-04-29",
-               "kingdom" : "animalia",
-               "fieldnumber" : "jtl5903",
-               "minelevation" : 270,
-               "etag" : "e3f4a3b702f84e6070b36d1ac49da45489dfb5ad",
-               "recordids" : [
-                  "ded380b5-1ba2-4089-8e0c-0aa1b4140785\\cas:antweb:jtlc000006914"
-               ],
-               "stateprovince" : "washington",
-               "family" : "formicidae",
+               "institutioncode" : "khd",
+               "datemodified" : "2014-07-22",
+               "country" : "usa",
+               "stateprovince" : "ohio",
+               "scientificname" : "iberis sempervirens",
                "data" : {
-                  "idigbio:dateModified" : "2014-03-21T11:24:51.946Z",
-                  "idigbio:uuid" : "3c48ab19-dbe1-4ba3-9a3b-bea8e7819bc7",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:etag" : "e3f4a3b702f84e6070b36d1ac49da45489dfb5ad",
-                  "idigbio:links" : {
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/ded380b5-1ba2-4089-8e0c-0aa1b4140785"
-                     ],
-                     "owner" : [
-                        "872733a2-67a3-4c54-aa76-862735a5f334"
-                     ]
-                  },
-                  "idigbio:recordIds" : [
-                     "ded380b5-1ba2-4089-8e0c-0aa1b4140785\\CAS:ANTWEB:jtlc000006914"
-                  ],
-                  "idigbio:version" : 1,
+                  "idigbio:uuid" : "b4f9bc89-c11e-4c39-aa89-72410e692cd8",
                   "idigbio:data" : {
-                     "dwc:georeferenceRemarks" : "20m",
-                     "idigbio:version" : 1,
-                     "dwc:dateIdentified" : "2007-05-17",
-                     "dwc:specificEpithet" : "densiventris",
-                     "dwc:institutionCode" : "CAS",
+                     "dwc:basisOfRecord" : "PreservedSpecimen",
+                     "dwc:stateProvince" : "Ohio",
+                     "symbiota:verbatimScientificName" : "Iberis sempervirens",
+                     "dwc:day" : "14",
                      "idigbio:links" : {
                         "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/ded380b5-1ba2-4089-8e0c-0aa1b4140785"
+                           "http://api.idigbio.org/v1/recordsets/5835f642-2560-4e3e-9c25-741a12cc3fe8"
                         ],
-                        "owner" : [
-                           "872733a2-67a3-4c54-aa76-862735a5f334"
+                        "mediarecord" : [
+                           "http://api.idigbio.org/v1/mediarecords/988759d5-138e-479c-9871-dbf88ebcbee8"
                         ]
                      },
-                     "dwc:scientificName" : "formica densiventris",
-                     "dwc:identifiedBy" : "J. Longino",
-                     "idigbio:uuid" : "3c48ab19-dbe1-4ba3-9a3b-bea8e7819bc7",
-                     "dwc:family" : "formicidae",
-                     "dwc:habitat" : "bare river terrace, abundant stones embedded in sand, lichens; under stone, populous nest with aggressive workers",
-                     "dwc:samplingProtocol" : "search",
-                     "dwc:sex" : "adult worker",
+                     "dwc:municipality" : "Logan",
+                     "idigbio:recordId" : "urn:uuid:ed5b69d9-1fe8-4da9-bc59-9a0ae54c615e",
+                     "dwc:family" : "Brassicaceae",
+                     "dwc:collectionID" : "urn:uuid:ca77be98-2a59-4aa9-bfc1-5ea615f2e6b7",
+                     "dwc:otherCatalogNumbers" : "18340",
+                     "dwc:year" : "1966",
+                     "dwc:genus" : "Iberis",
+                     "idigbio:etag" : "d256bc3bfbf995dd8a3e687a187c07df5c1da7c7",
+                     "dwc:recordedBy" : "Wm. G. Gambill",
+                     "dcterms:modified" : "2014-04-29 11:42:12",
+                     "dwc:scientificName" : "Iberis sempervirens",
+                     "dwc:eventDate" : "1966-05-14",
+                     "dwc:institutionCode" : "KHD",
+                     "dwc:country" : "USA",
+                     "dwc:rights" : "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+                     "dwc:county" : "Hocking County",
+                     "dwc:occurrenceID" : "3292380",
                      "idigbio:recordIds" : [
-                        "ded380b5-1ba2-4089-8e0c-0aa1b4140785\\CAS:ANTWEB:jtlc000006914"
+                        "urn:uuid:ed5b69d9-1fe8-4da9-bc59-9a0ae54c615e"
                      ],
-                     "dwc:locality" : "11km WNW Brown Creek Campground",
-                     "dwc:occurrenceID" : "CAS:ANTWEB:jtlc000006914",
+                     "idigbio:dateModified" : "2014-07-22T09:01:42.361Z",
+                     "idigbio:version" : 6,
+                     "dwc:startDayOfYear" : "134",
+                     "dwc:catalogNumber" : "KHD00031728",
+                     "idigbio:uuid" : "b4f9bc89-c11e-4c39-aa89-72410e692cd8",
+                     "dcterms:references" : "http://intermountainbiota.org/portal/collections/individual/index.php?occid=3292380",
+                     "dwc:locality" : "Ohio, Hocking County, Logan, 305 Second Street.",
+                     "dwc:specificEpithet" : "sempervirens",
+                     "dwc:reproductiveCondition" : "Flower and fruit",
+                     "dwc:scientificNameAuthorship" : "L.",
                      "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:eventDate" : "2007-04-29",
-                     "dwc:fieldNumber" : "JTL5903",
-                     "dwc:preparations" : "dry-mount",
-                     "dwc:higherClassification" : "animalia;arthropoda;insecta;hymenoptera;hymenoptera;formicidae;formicinae",
-                     "dwc:decimalLatitude" : "47.45952",
-                     "dwc:ownerInstitutionCode" : "JTLC",
-                     "dwc:decimalLongitude" : "-123.4474",
-                     "dwc:country" : "Mason Co.",
-                     "dwc:class" : "insecta",
-                     "dcterms:modified" : "2014-03-02 20:55:58.0",
-                     "dwc:verbatimEventDate" : "29 Apr 2007",
-                     "dwc:collectionCode" : "ANTWEB",
-                     "dwc:nomenclaturalCode" : "ICZN",
-                     "dwc:order" : "hymenoptera",
-                     "dwc:genus" : "Formica",
-                     "dwc:catalogNumber" : "jtlc000006914",
-                     "idigbio:etag" : "e3f4a3b702f84e6070b36d1ac49da45489dfb5ad",
-                     "dwc:stateProvince" : "Washington",
-                     "dwc:recordedBy" : "J. Longino",
-                     "dwc:phylum" : "arthropoda",
-                     "dwc:kingdom" : "animalia",
-                     "idigbio:dateModified" : "2014-03-21T11:24:51.946Z",
-                     "dwc:basisOfRecord" : "preserved specimen",
-                     "dwc:minimumElevationInMeters" : "270"
-                  }
+                     "dwc:month" : "5"
+                  },
+                  "idigbio:links" : {
+                     "mediarecord" : [
+                        "http://api.idigbio.org/v1/mediarecords/988759d5-138e-479c-9871-dbf88ebcbee8"
+                     ],
+                     "recordset" : [
+                        "http://api.idigbio.org/v1/recordsets/5835f642-2560-4e3e-9c25-741a12cc3fe8"
+                     ]
+                  },
+                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
+                  "idigbio:etag" : "d256bc3bfbf995dd8a3e687a187c07df5c1da7c7",
+                  "idigbio:recordIds" : [
+                     "urn:uuid:ed5b69d9-1fe8-4da9-bc59-9a0ae54c615e"
+                  ],
+                  "idigbio:dateModified" : "2014-07-22T09:01:42.361Z",
+                  "idigbio:version" : 6
                },
-               "recordset" : "ded380b5-1ba2-4089-8e0c-0aa1b4140785",
-               "phylum" : "arthropoda",
-               "country" : "mason co.",
-               "scientificname" : "formica densiventris",
-               "collectioncode" : "antweb",
-               "geopoint" : {
-                  "lon" : -123.4474,
-                  "lat" : 47.45952
-               },
-               "uuid" : "3c48ab19-dbe1-4ba3-9a3b-bea8e7819bc7",
-               "catalognumber" : "jtlc000006914",
-               "basisofrecord" : "preserved specimen",
-               "collector" : "j. longino"
-            },
-            "_id" : "3c48ab19-dbe1-4ba3-9a3b-bea8e7819bc7",
-            "_score" : 1
+               "collectionid" : "urn:uuid:ca77be98-2a59-4aa9-bfc1-5ea615f2e6b7",
+               "etag" : "d256bc3bfbf995dd8a3e687a187c07df5c1da7c7",
+               "municipality" : "logan",
+               "county" : "hocking county",
+               "occurrenceid" : "3292380",
+               "recordids" : [
+                  "urn:uuid:ed5b69d9-1fe8-4da9-bc59-9a0ae54c615e"
+               ],
+               "basisofrecord" : "preservedspecimen",
+               "hasImage" : true,
+               "dqs" : 0.395348837209302,
+               "datecollected" : "1966-05-14",
+               "collector" : "wm. g. gambill",
+               "uuid" : "b4f9bc89-c11e-4c39-aa89-72410e692cd8",
+               "family" : "brassicaceae",
+               "locality" : "ohio, hocking county, logan, 305 second street.",
+               "mediarecords" : [
+                  "988759d5-138e-479c-9871-dbf88ebcbee8"
+               ],
+               "genus" : "iberis",
+               "catalognumber" : "khd00031728",
+               "recordset" : "5835f642-2560-4e3e-9c25-741a12cc3fe8",
+               "eventdate" : "1966-05-14",
+               "specificepithet" : "sempervirens",
+               "flags" : []
+            }
          },
          {
+            "_type" : "records",
             "_source" : {
-               "etag" : "3b85f0f5adb17095dc4afdbec809dd107237cc25",
-               "maxdepth" : 0,
-               "class" : "actinopterygii",
-               "hasImage" : false,
-               "family" : "grammatidae",
-               "locality" : "off e central coast, ca 100 yd n of three brothers.",
-               "stateprovince" : "isla de providencia",
-               "recordids" : [
-                  "c38b867b-05f3-4733-802e-d8d2d3324f84\\4deb327c-1b31-4d56-ba5c-139477b5a1c0"
-               ],
+               "recordset" : "5835f642-2560-4e3e-9c25-741a12cc3fe8",
+               "eventdate" : "1966-05-14",
+               "specificepithet" : "bulbosa",
                "flags" : [],
-               "eventdate" : "1968-08-27",
-               "institutioncode" : "uf",
-               "recordset" : "c38b867b-05f3-4733-802e-d8d2d3324f84",
+               "catalognumber" : "khd00032544",
+               "locality" : "roadside ditch along ohio route 56, 1/2 mile east of orlando.",
+               "mediarecords" : [
+                  "f9c4fbd0-7929-4f42-8bf7-7b160cb04b16"
+               ],
+               "family" : "brassicaceae",
+               "genus" : "cardamine",
+               "uuid" : "f713ac44-c647-4ecd-a194-a2063cbd1b73",
+               "collector" : "william g. gambill, jr.",
+               "occurrenceid" : "3292620",
+               "recordids" : [
+                  "urn:uuid:0630be1b-2b07-45fc-8dce-eeaa048924cd"
+               ],
+               "basisofrecord" : "preservedspecimen",
+               "hasImage" : true,
+               "datecollected" : "1966-05-14",
+               "dqs" : 0.372093023255814,
                "data" : {
-                  "idigbio:version" : 3,
-                  "idigbio:data" : {
-                     "dwc:specificEpithet" : "loreto",
-                     "dwc:year" : "1968",
-                     "idigbio:version" : 3,
-                     "dwc:institutionCode" : "UF",
-                     "idigbio:links" : {
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/c38b867b-05f3-4733-802e-d8d2d3324f84"
-                        ]
-                     },
-                     "dwc:scientificName" : "Grammatidae Gramma loreto",
-                     "dwc:higherGeography" : "Isla de Providencia, Colombia, Caribbean Sea",
-                     "idigbio:uuid" : "3c48b527-bc3e-4ca7-a2a6-2f243fa376a7",
-                     "dwc:family" : "Grammatidae",
-                     "idigbio:recordIds" : [
-                        "c38b867b-05f3-4733-802e-d8d2d3324f84\\4DEB327C-1B31-4D56-BA5C-139477B5A1C0"
-                     ],
-                     "dwc:locality" : "Off E central coast, ca 100 yd N of Three Brothers.",
-                     "dwc:occurrenceID" : "4DEB327C-1B31-4D56-BA5C-139477B5A1C0",
-                     "dwc:continent" : "Caribbean Sea",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:eventDate" : "1968-08-27",
-                     "dwc:fieldNumber" : "TT68-19",
-                     "dwc:preparations" : "EtOH - 27",
-                     "dcterms:modified" : "1990-08-09 00:00:00.0",
-                     "dwc:class" : "Actinopterygii",
-                     "dwc:country" : "Colombia",
-                     "dwc:month" : "8",
-                     "dwc:genus" : "Gramma",
-                     "dwc:order" : "Perciformes",
-                     "dwc:collectionCode" : "Fish",
-                     "dwc:maximumDepthInMeters" : "0",
-                     "dwc:catalogNumber" : "25600",
-                     "id" : "4DEB327C-1B31-4D56-BA5C-139477B5A1C0",
-                     "dwc:recordedBy" : "Gilbert, Carter; et al.",
-                     "dwc:stateProvince" : "Isla de Providencia",
-                     "idigbio:etag" : "3b85f0f5adb17095dc4afdbec809dd107237cc25",
-                     "dwc:day" : "27",
-                     "idigbio:dateModified" : "2014-06-02T21:00:58.508Z",
-                     "dwc:basisOfRecord" : "PreservedSpecimen"
-                  },
                   "idigbio:links" : {
+                     "mediarecord" : [
+                        "http://api.idigbio.org/v1/mediarecords/f9c4fbd0-7929-4f42-8bf7-7b160cb04b16"
+                     ],
                      "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/c38b867b-05f3-4733-802e-d8d2d3324f84"
+                        "http://api.idigbio.org/v1/recordsets/5835f642-2560-4e3e-9c25-741a12cc3fe8"
                      ]
                   },
+                  "idigbio:data" : {
+                     "idigbio:links" : {
+                        "mediarecord" : [
+                           "http://api.idigbio.org/v1/mediarecords/f9c4fbd0-7929-4f42-8bf7-7b160cb04b16"
+                        ],
+                        "recordset" : [
+                           "http://api.idigbio.org/v1/recordsets/5835f642-2560-4e3e-9c25-741a12cc3fe8"
+                        ]
+                     },
+                     "dwc:day" : "14",
+                     "symbiota:verbatimScientificName" : "Cardamine bulbosa",
+                     "dwc:stateProvince" : "Ohio",
+                     "dwc:basisOfRecord" : "PreservedSpecimen",
+                     "dwc:family" : "Brassicaceae",
+                     "idigbio:recordId" : "urn:uuid:0630be1b-2b07-45fc-8dce-eeaa048924cd",
+                     "dwc:year" : "1966",
+                     "dwc:otherCatalogNumbers" : "18121",
+                     "dwc:collectionID" : "urn:uuid:ca77be98-2a59-4aa9-bfc1-5ea615f2e6b7",
+                     "dwc:recordedBy" : "William G. Gambill, Jr.",
+                     "dcterms:modified" : "2014-07-03 00:00:00",
+                     "idigbio:etag" : "2207e7c22b6eb7c330d65baf396afcec460ec395",
+                     "dwc:genus" : "Cardamine",
+                     "dwc:county" : "Hocking County",
+                     "dwc:rights" : "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+                     "dwc:country" : "United States",
+                     "dwc:institutionCode" : "KHD",
+                     "dwc:eventDate" : "1966-05-14",
+                     "dwc:scientificName" : "Cardamine bulbosa",
+                     "dwc:catalogNumber" : "KHD00032544",
+                     "idigbio:dateModified" : "2014-07-22T09:15:44.924Z",
+                     "dwc:startDayOfYear" : "134",
+                     "idigbio:version" : 6,
+                     "idigbio:recordIds" : [
+                        "urn:uuid:0630be1b-2b07-45fc-8dce-eeaa048924cd"
+                     ],
+                     "dwc:occurrenceID" : "3292620",
+                     "dwc:locality" : "Roadside ditch along Ohio Route 56, 1/2 mile east of Orlando.",
+                     "dcterms:references" : "http://intermountainbiota.org/portal/collections/individual/index.php?occid=3292620",
+                     "idigbio:uuid" : "f713ac44-c647-4ecd-a194-a2063cbd1b73",
+                     "dwc:month" : "5",
+                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
+                     "dwc:scientificNameAuthorship" : "(Schreb. ex Muhl.) Britton, Sterns & Poggenb.",
+                     "dwc:reproductiveCondition" : "Flower and fruit",
+                     "dwc:specificEpithet" : "bulbosa"
+                  },
+                  "idigbio:uuid" : "f713ac44-c647-4ecd-a194-a2063cbd1b73",
+                  "idigbio:dateModified" : "2014-07-22T09:15:44.924Z",
+                  "idigbio:version" : 6,
                   "idigbio:recordIds" : [
-                     "c38b867b-05f3-4733-802e-d8d2d3324f84\\4DEB327C-1B31-4D56-BA5C-139477B5A1C0"
+                     "urn:uuid:0630be1b-2b07-45fc-8dce-eeaa048924cd"
                   ],
-                  "idigbio:etag" : "3b85f0f5adb17095dc4afdbec809dd107237cc25",
-                  "idigbio:dateModified" : "2014-06-02T21:00:58.508Z",
-                  "idigbio:uuid" : "3c48b527-bc3e-4ca7-a2a6-2f243fa376a7",
+                  "idigbio:etag" : "2207e7c22b6eb7c330d65baf396afcec460ec395",
                   "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334"
                },
-               "continent" : "caribbean sea",
-               "genus" : "gramma",
-               "dqs" : 0.465116279069767,
-               "country" : "colombia",
-               "scientificname" : "grammatidae gramma loreto",
-               "order" : "perciformes",
-               "collectioncode" : "fish",
-               "specificepithet" : "loreto",
-               "catalognumber" : "25600",
-               "uuid" : "3c48b527-bc3e-4ca7-a2a6-2f243fa376a7",
-               "fieldnumber" : "tt68-19",
-               "occurrenceid" : "4deb327c-1b31-4d56-ba5c-139477b5a1c0",
-               "collector" : "gilbert, carter; et al.",
-               "datecollected" : "1968-08-27",
-               "basisofrecord" : "preservedspecimen",
-               "datemodified" : "2014-06-02"
-            },
-            "_type" : "records",
-            "_index" : "idigbio-1.4.0",
-            "_score" : 1,
-            "_id" : "3c48b527-bc3e-4ca7-a2a6-2f243fa376a7"
-         },
-         {
-            "_score" : 1,
-            "_id" : "3c48b537-a801-4048-a4e5-4fba65ec14a2",
-            "_source" : {
-               "family" : "fontinalaceae",
-               "stateprovince" : "connecticut",
-               "recordids" : [
-                  "e70af26a-fb9e-43ab-96a0-d62a2df37e6d\\urn:catalog:uconn:conn:conn00053312"
-               ],
-               "etag" : "b43297b9b96e7c673a7d2248b6eb481723561f67",
-               "data" : {
-                  "idigbio:etag" : "b43297b9b96e7c673a7d2248b6eb481723561f67",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:uuid" : "3c48b537-a801-4048-a4e5-4fba65ec14a2",
-                  "idigbio:dateModified" : "2014-03-21T18:55:34.438Z",
-                  "idigbio:data" : {
-                     "dwc:higherClassification" : "Plantae: Bryophyta; Hypnales; Fontinalaceae",
-                     "dwc:decimalLatitude" : "41.76888",
-                     "dwc:coordinateUncertaintyInMeters" : "20000",
-                     "dcterms:modified" : "2004-01-29T00:00-0500",
-                     "dwc:month" : "8",
-                     "dwc:country" : "USA",
-                     "dwc:decimalLongitude" : "-72.17416",
-                     "dwc:verbatimEventDate" : "4 Aug 1948",
-                     "dwc:genus" : "Fontinalis",
-                     "dwc:order" : "Hypnales",
-                     "dwc:collectionCode" : "CONN",
-                     "dwc:catalogNumber" : "CONN00053312",
-                     "dwc:municipality" : "Mansfield",
-                     "dwc:recordNumber" : "4403",
-                     "dcterms:rights" : "This work is licensed under a Creative Commons CCZero 1.0 License http://creativecommons.org/publicdomain/zero/1.0/",
-                     "dwc:day" : "4",
-                     "idigbio:etag" : "b43297b9b96e7c673a7d2248b6eb481723561f67",
-                     "dwc:recordedBy" : "G.S. Torrey",
-                     "dwc:stateProvince" : "Connecticut",
-                     "dwc:basisOfRecord" : "Preserved Specimen",
-                     "idigbio:dateModified" : "2014-03-21T18:55:34.438Z",
-                     "dwc:kingdom" : "Plantae",
-                     "dwc:datasetID" : "46456",
-                     "dwc:verbatimLongitude" : "72°10' 27 W",
-                     "dwc:previousIdentifications" : "Fontinalis novae-angliae Sull.",
-                     "dwc:specificEpithet" : "novae-angliae",
-                     "dwc:year" : "1948",
-                     "idigbio:version" : 1,
-                     "dwc:countryCode" : "US",
-                     "dwc:scientificName" : "Fontinalis novae-angliae Sull.",
-                     "idigbio:links" : {
-                        "owner" : [
-                           "872733a2-67a3-4c54-aa76-862735a5f334"
-                        ],
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/e70af26a-fb9e-43ab-96a0-d62a2df37e6d"
-                        ]
-                     },
-                     "dwc:institutionCode" : "UConn",
-                     "dwc:higherGeography" : "USA; Connecticut; Tolland County; Mansfield; Bassett Bridge",
-                     "dwc:county" : "Tolland County",
-                     "idigbio:uuid" : "3c48b537-a801-4048-a4e5-4fba65ec14a2",
-                     "dwc:habitat" : "Shallow water of river.",
-                     "dwc:family" : "Fontinalaceae",
-                     "idigbio:recordIds" : [
-                        "e70af26a-fb9e-43ab-96a0-d62a2df37e6d\\urn:catalog:UConn:CONN:CONN00053312"
-                     ],
-                     "dwc:verbatimLocality" : "Mount Hope River, Bassett's Bridge, Mansfield",
-                     "dwc:occurrenceID" : "urn:catalog:UConn:CONN:CONN00053312",
-                     "dwc:locality" : "Bassett Bridge",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:eventDate" : "1948-8-4",
-                     "dwc:verbatimLatitude" : "41°46' 08 N"
-                  },
-                  "idigbio:version" : 1,
-                  "idigbio:recordIds" : [
-                     "e70af26a-fb9e-43ab-96a0-d62a2df37e6d\\urn:catalog:UConn:CONN:CONN00053312"
-                  ],
-                  "idigbio:links" : {
-                     "owner" : [
-                        "872733a2-67a3-4c54-aa76-862735a5f334"
-                     ],
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/e70af26a-fb9e-43ab-96a0-d62a2df37e6d"
-                     ]
-                  }
-               },
-               "recordset" : "e70af26a-fb9e-43ab-96a0-d62a2df37e6d",
-               "geopoint" : {
-                  "lat" : 41.76888,
-                  "lon" : -72.17416
-               },
-               "collectioncode" : "conn",
-               "scientificname" : "fontinalis novae-angliae sull.",
-               "country" : "usa",
-               "basisofrecord" : "preserved specimen",
-               "collector" : "g.s. torrey",
-               "recordnumber" : "4403",
-               "municipality" : "mansfield",
-               "uuid" : "3c48b537-a801-4048-a4e5-4fba65ec14a2",
-               "catalognumber" : "conn00053312",
-               "locality" : "bassett bridge",
-               "verbatimlocality" : "mount hope river, bassett's bridge, mansfield",
-               "flags" : [
-                  "geopoint_datum_missing"
-               ],
-               "hasImage" : false,
-               "county" : "tolland county",
-               "eventdate" : "1948-8-4",
-               "institutioncode" : "uconn",
-               "order" : "hypnales",
-               "highertaxon" : "plantae: bryophyta; hypnales; fontinalaceae",
-               "verbatimeventdate" : "4 aug 1948",
-               "dqs" : 0.558139534883721,
-               "genus" : "fontinalis",
-               "kingdom" : "plantae",
-               "datemodified" : "2014-03-21",
-               "datecollected" : "1948-08-04",
-               "occurrenceid" : "urn:catalog:uconn:conn:conn00053312",
-               "specificepithet" : "novae-angliae"
-            },
-            "_index" : "idigbio-1.4.0",
-            "_type" : "records"
-         },
-         {
-            "_id" : "3c48b565-18b2-4820-977e-c2f25a56e07e",
-            "_score" : 1,
-            "_index" : "idigbio-1.4.0",
-            "_type" : "records",
-            "_source" : {
-               "flags" : [],
-               "verbatimlocality" : "united states; indiana; fayette;",
-               "class" : "amphibia",
-               "hasImage" : false,
-               "county" : "fayette",
-               "institutioncode" : "ummz",
-               "eventdate" : "1978-05-27",
-               "verbatimeventdate" : "27 may 1978",
-               "order" : "caudata",
-               "highertaxon" : "caudata:plethodontidae:plethodon",
-               "genus" : "plethodon",
-               "dqs" : 0.581395348837209,
-               "datecollected" : "1978-05-27",
-               "occurrenceid" : "urn:catalog:ummz:herps:150077",
-               "datemodified" : "2014-05-03",
-               "kingdom" : "animalia",
-               "specificepithet" : "cinereus",
-               "recordids" : [
-                  "348f4784-4786-45be-8d0f-85f2b189eba8\\urn:catalog:ummz:herps:150077"
-               ],
-               "stateprovince" : "indiana",
-               "family" : "plethodontidae",
-               "etag" : "48ac70c71c52f165a03a1ea9d0befa30d0cd9aaa",
-               "data" : {
-                  "idigbio:links" : {
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/348f4784-4786-45be-8d0f-85f2b189eba8"
-                     ],
-                     "owner" : [
-                        "872733a2-67a3-4c54-aa76-862735a5f334"
-                     ]
-                  },
-                  "idigbio:recordIds" : [
-                     "348f4784-4786-45be-8d0f-85f2b189eba8\\urn:catalog:UMMZ:Herps:150077"
-                  ],
-                  "idigbio:version" : 0,
-                  "idigbio:data" : {
-                     "dwc:occurrenceID" : "urn:catalog:UMMZ:Herps:150077",
-                     "dwc:establishmentMeans" : "native",
-                     "dwc:occurrenceStatus" : "present",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:eventDate" : "1978-05-27",
-                     "dwc:continent" : "North America",
-                     "dwc:occurrenceRemarks" : "NTD IN FIELD NOTES ON FILE",
-                     "dwc:family" : "Plethodontidae",
-                     "dwc:verbatimLocality" : "UNITED STATES; INDIANA; FAYETTE;",
-                     "idigbio:recordIds" : [
-                        "348f4784-4786-45be-8d0f-85f2b189eba8\\urn:catalog:UMMZ:Herps:150077"
-                     ],
-                     "dcterms:language" : "en",
-                     "dwc:higherGeography" : ";UNITED STATES;INDIANA;FAYETTE;;;;",
-                     "dwc:startDayOfYear" : "147",
-                     "dwc:individualCount" : "1",
-                     "idigbio:uuid" : "3c48b565-18b2-4820-977e-c2f25a56e07e",
-                     "dwc:county" : "Fayette",
-                     "dwc:endDayOfYear" : "147",
-                     "idigbio:version" : 0,
-                     "dwc:year" : "1978",
-                     "dwc:specificEpithet" : "cinereus",
-                     "dwc:scientificName" : "Plethodon cinereus",
-                     "dwc:countryCode" : "US",
-                     "dwc:taxonRank" : "species",
-                     "idigbio:links" : {
-                        "owner" : [
-                           "872733a2-67a3-4c54-aa76-862735a5f334"
-                        ],
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/348f4784-4786-45be-8d0f-85f2b189eba8"
-                        ]
-                     },
-                     "dwc:institutionCode" : "UMMZ",
-                     "dcterms:rights" : "https://creativecommons.org/publicdomain/zero/1.0/",
-                     "dwc:day" : "27",
-                     "idigbio:etag" : "48ac70c71c52f165a03a1ea9d0befa30d0cd9aaa",
-                     "dwc:recordedBy" : "G L BREITENBACH",
-                     "dwc:stateProvince" : "Indiana",
-                     "dwc:recordNumber" : "SAM 3961",
-                     "dwc:phylum" : "Chordata",
-                     "dwc:kingdom" : "Animalia",
-                     "dwc:institutionID" : "urn:lsid:biocol.org:col:34917",
-                     "idigbio:dateModified" : "2014-05-03T08:09:29.980Z",
-                     "dwc:basisOfRecord" : "PreservedSpecimen",
-                     "dwc:catalogNumber" : "150077",
-                     "dcterms:type" : "PhysicalObject",
-                     "dwc:verbatimEventDate" : "27 MAY 1978",
-                     "dwc:informationWithheld" : "locality",
-                     "dwc:collectionCode" : "Herps",
-                     "dwc:genus" : "Plethodon",
-                     "dwc:order" : "Caudata",
-                     "dwc:nomenclaturalCode" : "ICZN",
-                     "dwc:higherClassification" : "CAUDATA:PLETHODONTIDAE:PLETHODON",
-                     "dwc:month" : "5",
-                     "dwc:country" : "United States",
-                     "dwc:class" : "Amphibia",
-                     "dcterms:modified" : "2014-04-16"
-                  },
-                  "idigbio:dateModified" : "2014-05-03T08:09:29.980Z",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:uuid" : "3c48b565-18b2-4820-977e-c2f25a56e07e",
-                  "idigbio:etag" : "48ac70c71c52f165a03a1ea9d0befa30d0cd9aaa"
-               },
-               "recordset" : "348f4784-4786-45be-8d0f-85f2b189eba8",
-               "continent" : "north america",
-               "phylum" : "chordata",
-               "collectioncode" : "herps",
-               "scientificname" : "plethodon cinereus",
+               "etag" : "2207e7c22b6eb7c330d65baf396afcec460ec395",
+               "collectionid" : "urn:uuid:ca77be98-2a59-4aa9-bfc1-5ea615f2e6b7",
+               "county" : "hocking county",
+               "institutioncode" : "khd",
+               "datemodified" : "2014-07-22",
                "country" : "united states",
-               "collector" : "g l breitenbach",
-               "basisofrecord" : "preservedspecimen",
-               "catalognumber" : "150077",
-               "uuid" : "3c48b565-18b2-4820-977e-c2f25a56e07e",
-               "recordnumber" : "sam 3961",
-               "institutionid" : "urn:lsid:biocol.org:col:34917"
-            }
-         },
-         {
-            "_score" : 1,
-            "_id" : "3c48cab2-ff03-4c0b-bf52-4fcfbd2f78f3",
-            "_source" : {
-               "specificepithet" : "abbas",
-               "occurrenceid" : "mcz:orn:261253",
-               "datecollected" : "1957-03-28",
-               "datemodified" : "2014-04-19",
-               "kingdom" : "animalia",
-               "genus" : "thraupis",
-               "dqs" : 0.627906976744186,
-               "highertaxon" : "animalia chordata vertebrata aves neornithes passeriformes oscines emberizidae thraupis abbas",
-               "order" : "passeriformes",
-               "verbatimeventdate" : "28/3/1957",
-               "institutioncode" : "mcz",
-               "eventdate" : "1957-03-28",
-               "class" : "aves",
-               "hasImage" : false,
-               "flags" : [
-                  "geopoint_datum_error"
-               ],
-               "maxelevation" : 200,
-               "locality" : "tikal",
-               "catalognumber" : "261253",
-               "uuid" : "3c48cab2-ff03-4c0b-bf52-4fcfbd2f78f3",
-               "institutionid" : "b4640710-8e03-11d8-b956-b8a03c50a862",
-               "recordnumber" : "184",
-               "collector" : "frank b. smithe",
-               "basisofrecord" : "preservedspecimen",
-               "country" : "guatemala",
-               "collectioncode" : "orn",
-               "scientificname" : "thraupis abbas",
-               "geopoint" : {
-                  "lat" : 17.2166666667,
-                  "lon" : -89.6166666667
-               },
-               "data" : {
-                  "idigbio:data" : {
-                     "dwc:catalogNumber" : "261253",
-                     "dwc:coordinatePrecision" : "0",
-                     "dcterms:type" : "PhysicalObject",
-                     "dwc:minimumElevationInMeters" : "200",
-                     "idigbio:dateModified" : "2014-04-19T02:38:36.627Z",
-                     "dwc:basisOfRecord" : "PreservedSpecimen",
-                     "dwc:kingdom" : "Animalia",
-                     "dwc:institutionID" : "b4640710-8e03-11d8-b956-b8a03c50a862",
-                     "dwc:phylum" : "Chordata",
-                     "dwc:recordNumber" : "184",
-                     "dcterms:rightsHolder" : "President and Fellows of Harvard College",
-                     "dwc:identificationVerificationStatus" : "unknown",
-                     "dwc:verbatimElevation" : "200-200 m",
-                     "dwc:stateProvince" : "Petén",
-                     "dwc:recordedBy" : "Frank B. Smithe",
-                     "idigbio:etag" : "5fed925121d48af11109a8313a1888c12b3c86ec",
-                     "dcterms:modified" : "2014-04-11 15:56:24.0",
-                     "dwc:class" : "Aves",
-                     "dwc:country" : "Guatemala",
-                     "dwc:decimalLongitude" : "-89.6166666667",
-                     "dwc:ownerInstitutionCode" : "Museum of Comparative Zoology, Harvard University",
-                     "dwc:decimalLatitude" : "17.2166666667",
-                     "dwc:higherClassification" : "Animalia Chordata Vertebrata Aves Neornithes Passeriformes Oscines Emberizidae Thraupis abbas",
-                     "dwc:preparations" : "skin (dry)",
-                     "dwc:coordinateUncertaintyInMeters" : "0",
-                     "dwc:genus" : "Thraupis",
-                     "dwc:order" : "Passeriformes",
-                     "dwc:dynamicProperties" : "age class: adult; sex: male",
-                     "dwc:nomenclaturalCode" : "ICZN",
-                     "dwc:otherCatalogNumbers" : "collector number=184",
-                     "dwc:disposition" : "unknown",
-                     "dwc:georeferenceSources" : "unknown",
-                     "dcterms:references" : "http://mczbase.mcz.harvard.edu/guid/MCZ:Orn:261253",
-                     "dwc:collectionCode" : "Orn",
-                     "dwc:verbatimEventDate" : "28/3/1957",
-                     "dwc:maximumElevationInMeters" : "200",
-                     "idigbio:recordIds" : [
-                        "271a9ce9-c6d3-4b63-a722-cb0adc48863f\\MCZ:Orn:261253"
-                     ],
-                     "dcterms:language" : "en",
-                     "dwc:sex" : "male",
-                     "dwc:family" : "Emberizidae",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:eventDate" : "1957-03-28",
-                     "dwc:continent" : "Central America",
-                     "dwc:verbatimLatitude" : "17d 13m 0s N",
-                     "dwc:georeferenceProtocol" : "unknown",
-                     "dwc:scientificNameAuthorship" : "(Deppe, 1830)",
-                     "dwc:occurrenceID" : "MCZ:Orn:261253",
-                     "dwc:locality" : "Tikal",
-                     "dwc:associatedMedia" : "http://mczbase.mcz.harvard.edu/guid/MCZ:Orn:261253",
-                     "dwc:verbatimCoordinateSystem" : "deg. min. sec.",
-                     "dwc:scientificName" : "Thraupis abbas",
-                     "idigbio:links" : {
-                        "owner" : [
-                           "872733a2-67a3-4c54-aa76-862735a5f334"
-                        ],
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/271a9ce9-c6d3-4b63-a722-cb0adc48863f"
-                        ]
-                     },
-                     "dwc:institutionCode" : "MCZ",
-                     "dwc:verbatimLongitude" : "89d 37m 0s W",
-                     "dwc:specificEpithet" : "abbas",
-                     "idigbio:version" : 2,
-                     "idigbio:uuid" : "3c48cab2-ff03-4c0b-bf52-4fcfbd2f78f3",
-                     "dwc:identifiedBy" : "Catalog",
-                     "dwc:georeferencedBy" : "[no agent data]",
-                     "dwc:geodeticDatum" : "unknown",
-                     "dwc:individualCount" : "1",
-                     "dwc:higherGeography" : "Central America, Guatemala, Petén",
-                     "dwc:startDayOfYear" : "0"
-                  },
-                  "idigbio:version" : 2,
-                  "idigbio:recordIds" : [
-                     "271a9ce9-c6d3-4b63-a722-cb0adc48863f\\MCZ:Orn:261253"
-                  ],
-                  "idigbio:links" : {
-                     "owner" : [
-                        "872733a2-67a3-4c54-aa76-862735a5f334"
-                     ],
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/271a9ce9-c6d3-4b63-a722-cb0adc48863f"
-                     ]
-                  },
-                  "idigbio:etag" : "5fed925121d48af11109a8313a1888c12b3c86ec",
-                  "idigbio:uuid" : "3c48cab2-ff03-4c0b-bf52-4fcfbd2f78f3",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:dateModified" : "2014-04-19T02:38:36.627Z"
-               },
-               "recordset" : "271a9ce9-c6d3-4b63-a722-cb0adc48863f",
-               "continent" : "central america",
-               "phylum" : "chordata",
-               "minelevation" : 200,
-               "etag" : "5fed925121d48af11109a8313a1888c12b3c86ec",
-               "recordids" : [
-                  "271a9ce9-c6d3-4b63-a722-cb0adc48863f\\mcz:orn:261253"
-               ],
-               "stateprovince" : "petén",
-               "family" : "emberizidae"
+               "scientificname" : "cardamine bulbosa",
+               "stateprovince" : "ohio"
             },
-            "_type" : "records",
-            "_index" : "idigbio-1.4.0"
-         },
-         {
-            "_source" : {
-               "institutioncode" : "ku",
-               "eventdate" : "2009-3-15",
-               "county" : "douglas",
-               "hasImage" : false,
-               "class" : "insecta",
-               "flags" : [],
-               "locality" : "clinton lake, n1400th rd access",
-               "specificepithet" : "vivax",
-               "datemodified" : "2014-06-16",
-               "datecollected" : "2009-03-15",
-               "occurrenceid" : "3573aa2b-1ed6-11e3-bfac-90b11c41863e",
-               "kingdom" : "animalia",
-               "dqs" : 0.534883720930233,
-               "genus" : "elaphropus",
-               "order" : "coleoptera",
-               "continent" : "nearctic",
-               "data" : {
-                  "idigbio:uuid" : "3c48d688-748d-4f00-8ef5-074d69a0a3f0",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:dateModified" : "2014-06-16T23:08:53.173Z",
-                  "idigbio:etag" : "99a13a4508dde6031bc3c9ec56c182530ffd88db",
-                  "idigbio:recordIds" : [
-                     "568e209f-d072-4fd6-8b64-27954b0fd731\\3573aa2b-1ed6-11e3-bfac-90b11c41863e"
-                  ],
-                  "idigbio:links" : {
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/568e209f-d072-4fd6-8b64-27954b0fd731"
-                     ],
-                     "owner" : [
-                        "872733a2-67a3-4c54-aa76-862735a5f334"
-                     ]
-                  },
-                  "idigbio:data" : {
-                     "dwc:collectionCode" : "SEMC",
-                     "dwc:genus" : "Elaphropus",
-                     "dwc:order" : "Coleoptera",
-                     "dwc:decimalLongitude" : "-95.42811",
-                     "dwc:country" : "United States",
-                     "dwc:month" : "3",
-                     "dcterms:modified" : "2012-11-15 09:41:54.0",
-                     "dwc:class" : "Insecta",
-                     "dwc:decimalLatitude" : "38.94289",
-                     "dwc:preparations" : "Pinned - 1",
-                     "dwc:kingdom" : "Animalia",
-                     "dwc:institutionID" : "http://grbio.org/cool/iakn-125z",
-                     "dwc:phylum" : "Arthropoda",
-                     "dwc:basisOfRecord" : "PreservedSpecimen",
-                     "idigbio:dateModified" : "2014-06-16T23:08:53.173Z",
-                     "dwc:recordedBy" : "Falin, Zachary",
-                     "idigbio:etag" : "99a13a4508dde6031bc3c9ec56c182530ffd88db",
-                     "dwc:stateProvince" : "Kansas",
-                     "dwc:day" : "15",
-                     "dcterms:rights" : "http://creativecommons.org/licenses/by/4.0/deed.en_US",
-                     "id" : "3573aa2b-1ed6-11e3-bfac-90b11c41863e",
-                     "dwc:catalogNumber" : "865882",
-                     "idigbio:uuid" : "3c48d688-748d-4f00-8ef5-074d69a0a3f0",
-                     "dwc:county" : "Douglas",
-                     "dwc:higherGeography" : "United States, Kansas, Douglas",
-                     "dwc:geodeticDatum" : "WGS84",
-                     "idigbio:links" : {
-                        "owner" : [
-                           "872733a2-67a3-4c54-aa76-862735a5f334"
-                        ],
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/568e209f-d072-4fd6-8b64-27954b0fd731"
-                        ]
-                     },
-                     "dwc:institutionCode" : "KU",
-                     "dwc:scientificName" : "Elaphropus Tachyura vivax",
-                     "dwc:year" : "2009",
-                     "idigbio:version" : 1,
-                     "dwc:specificEpithet" : "vivax",
-                     "dwc:georeferenceProtocol" : "GPS",
-                     "dwc:continent" : "Nearctic",
-                     "dcterms:accessRights" : "http://biodiversity.ku.edu/research/university-kansas-biodiversity-institute-data-publication-and-use-norms",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:subgenus" : "Tachyura",
-                     "dwc:eventDate" : "2009-3-15",
-                     "dwc:locality" : "Clinton Lake, N1400th Rd access",
-                     "dwc:occurrenceID" : "3573aa2b-1ed6-11e3-bfac-90b11c41863e",
-                     "dwc:datasetName" : "Snow Entomological Museum Collection",
-                     "idigbio:recordIds" : [
-                        "568e209f-d072-4fd6-8b64-27954b0fd731\\3573aa2b-1ed6-11e3-bfac-90b11c41863e"
-                     ],
-                     "dwc:habitat" : "shore, lake",
-                     "dwc:family" : "Carabidae"
-                  },
-                  "idigbio:version" : 1
-               },
-               "recordset" : "568e209f-d072-4fd6-8b64-27954b0fd731",
-               "phylum" : "arthropoda",
-               "etag" : "99a13a4508dde6031bc3c9ec56c182530ffd88db",
-               "recordids" : [
-                  "568e209f-d072-4fd6-8b64-27954b0fd731\\3573aa2b-1ed6-11e3-bfac-90b11c41863e"
-               ],
-               "family" : "carabidae",
-               "stateprovince" : "kansas",
-               "uuid" : "3c48d688-748d-4f00-8ef5-074d69a0a3f0",
-               "catalognumber" : "865882",
-               "institutionid" : "http://grbio.org/cool/iakn-125z",
-               "basisofrecord" : "preservedspecimen",
-               "collector" : "falin, zachary",
-               "country" : "united states",
-               "scientificname" : "elaphropus tachyura vivax",
-               "collectioncode" : "semc",
-               "geopoint" : {
-                  "lon" : -95.42811,
-                  "lat" : 38.94289
-               }
-            },
-            "_type" : "records",
             "_index" : "idigbio-1.4.0",
             "_score" : 1,
-            "_id" : "3c48d688-748d-4f00-8ef5-074d69a0a3f0"
-         },
-         {
-            "_index" : "idigbio-1.4.0",
-            "_type" : "records",
-            "_source" : {
-               "data" : {
-                  "idigbio:links" : {
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/271a9ce9-c6d3-4b63-a722-cb0adc48863f"
-                     ],
-                     "owner" : [
-                        "872733a2-67a3-4c54-aa76-862735a5f334"
-                     ]
-                  },
-                  "idigbio:recordIds" : [
-                     "271a9ce9-c6d3-4b63-a722-cb0adc48863f\\MCZ:Herp:R-119936"
-                  ],
-                  "idigbio:version" : 0,
-                  "idigbio:data" : {
-                     "dwc:georeferenceSources" : "JOG NE 19-7 (1:250,000)",
-                     "dwc:otherCatalogNumbers" : "muse location number=ZR119931; previous number=MCZ 37458-67",
-                     "dwc:disposition" : "unknown",
-                     "dwc:collectionCode" : "Herp",
-                     "dcterms:references" : "http://mczbase.mcz.harvard.edu/guid/MCZ:Herp:R-119936",
-                     "dwc:order" : "Squamata",
-                     "dwc:genus" : "Anolis",
-                     "dwc:nomenclaturalCode" : "ICZN",
-                     "dwc:verbatimEventDate" : "6/4/1934-6/4/1934",
-                     "dwc:decimalLongitude" : "-69.41560364",
-                     "dcterms:modified" : "2012-12-06 08:46:15.0",
-                     "dwc:class" : "Reptilia",
-                     "dwc:decimalLatitude" : "19.13920021",
-                     "dwc:preparations" : "whole animal (ethanol)",
-                     "dwc:higherClassification" : "Animalia Chordata Reptilia Lepidosauromorpha Squamata Sauria Iguanidae Anolis cybotes cybotes",
-                     "dwc:coordinateUncertaintyInMeters" : "23292",
-                     "dwc:ownerInstitutionCode" : "Museum of Comparative Zoology, Harvard University",
-                     "dwc:institutionID" : "b4640710-8e03-11d8-b956-b8a03c50a862",
-                     "dwc:phylum" : "Chordata",
-                     "dwc:kingdom" : "Animalia",
-                     "idigbio:dateModified" : "2014-01-11T17:01:56.316Z",
-                     "dwc:basisOfRecord" : "PreservedSpecimen",
-                     "dwc:recordedBy" : "Thomas Barbour",
-                     "idigbio:etag" : "996b7db1a39c24786f4ad48b4bc05ef55ad1a51c",
-                     "dwc:identificationVerificationStatus" : "unverified",
-                     "dcterms:rightsHolder" : "President and Fellows of Harvard College",
-                     "dwc:island" : "Hispaniola",
-                     "dwc:infraspecificEpithet" : "cybotes",
-                     "dwc:coordinatePrecision" : "23292",
-                     "dwc:catalogNumber" : "R-119936",
-                     "dcterms:type" : "PhysicalObject",
-                     "dwc:identifiedBy" : "[no agent data]",
-                     "dwc:georeferencedBy" : "Elisa Bonaccorso (KUNHM)",
-                     "idigbio:uuid" : "3c48e25e-e556-4302-96c5-be554e91d1a0",
-                     "dwc:startDayOfYear" : "0",
-                     "dwc:higherGeography" : "West Indies, Hispaniola",
-                     "dwc:individualCount" : "1",
-                     "dwc:geodeticDatum" : "WGS84",
-                     "dwc:scientificName" : "Anolis cybotes cybotes",
-                     "dwc:verbatimCoordinateSystem" : "decimal degrees",
-                     "idigbio:links" : {
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/271a9ce9-c6d3-4b63-a722-cb0adc48863f"
-                        ],
-                        "owner" : [
-                           "872733a2-67a3-4c54-aa76-862735a5f334"
-                        ]
-                     },
-                     "dwc:institutionCode" : "MCZ",
-                     "idigbio:version" : 0,
-                     "dwc:georeferenceRemarks" : "cordinates for midpoint of Sabana Bay",
-                     "dwc:verbatimLongitude" : "-69.41560364d",
-                     "dwc:specificEpithet" : "cybotes",
-                     "dwc:georeferenceProtocol" : "MaNIS/HerpNET/ORNIS Georeferencing Guidelines",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:eventDate" : "1934-04-06",
-                     "dwc:continent" : "West Indies",
-                     "dwc:verbatimLatitude" : "19.13920021d",
-                     "dwc:occurrenceID" : "MCZ:Herp:R-119936",
-                     "dwc:locality" : "Dominican Republic: Sanchez Ramirez: Samana Bay.",
-                     "dwc:associatedMedia" : "http://mczbase.mcz.harvard.edu/guid/MCZ:Herp:R-119936",
-                     "idigbio:recordIds" : [
-                        "271a9ce9-c6d3-4b63-a722-cb0adc48863f\\MCZ:Herp:R-119936"
-                     ],
-                     "dcterms:language" : "en",
-                     "dwc:family" : "Iguanidae"
-                  },
-                  "idigbio:dateModified" : "2014-01-11T17:01:56.316Z",
-                  "idigbio:uuid" : "3c48e25e-e556-4302-96c5-be554e91d1a0",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:etag" : "996b7db1a39c24786f4ad48b4bc05ef55ad1a51c"
-               },
-               "recordset" : "271a9ce9-c6d3-4b63-a722-cb0adc48863f",
-               "continent" : "west indies",
-               "phylum" : "chordata",
-               "etag" : "996b7db1a39c24786f4ad48b4bc05ef55ad1a51c",
-               "recordids" : [
-                  "271a9ce9-c6d3-4b63-a722-cb0adc48863f\\mcz:herp:r-119936"
-               ],
-               "family" : "iguanidae",
-               "catalognumber" : "r-119936",
-               "uuid" : "3c48e25e-e556-4302-96c5-be554e91d1a0",
-               "institutionid" : "b4640710-8e03-11d8-b956-b8a03c50a862",
-               "collector" : "thomas barbour",
-               "basisofrecord" : "preservedspecimen",
-               "scientificname" : "anolis cybotes cybotes",
-               "collectioncode" : "herp",
-               "geopoint" : {
-                  "lon" : -69.41560364,
-                  "lat" : 19.13920021
-               },
-               "institutioncode" : "mcz",
-               "eventdate" : "1934-04-06",
-               "class" : "reptilia",
-               "hasImage" : false,
-               "flags" : [],
-               "locality" : "dominican republic: sanchez ramirez: samana bay.",
-               "specificepithet" : "cybotes",
-               "infraspecificepithet" : "cybotes",
-               "occurrenceid" : "mcz:herp:r-119936",
-               "datecollected" : "1934-04-06",
-               "datemodified" : "2014-01-11",
-               "kingdom" : "animalia",
-               "genus" : "anolis",
-               "dqs" : 0.534883720930233,
-               "highertaxon" : "animalia chordata reptilia lepidosauromorpha squamata sauria iguanidae anolis cybotes cybotes",
-               "order" : "squamata",
-               "verbatimeventdate" : "6/4/1934-6/4/1934"
-            },
-            "_id" : "3c48e25e-e556-4302-96c5-be554e91d1a0",
-            "_score" : 1
-         },
-         {
-            "_source" : {
-               "eventdate" : "1985-07-28",
-               "institutioncode" : "asu",
-               "recordset" : "7c927849-94ed-4034-90e9-af34ac0cb47c",
-               "data" : {
-                  "idigbio:links" : {
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/7c927849-94ed-4034-90e9-af34ac0cb47c"
-                     ]
-                  },
-                  "idigbio:recordIds" : [
-                     "urn:uuid:3c48ea66-c536-4929-aa78-0b21afc48b6a"
-                  ],
-                  "idigbio:version" : 4,
-                  "idigbio:data" : {
-                     "dwc:startDayOfYear" : "209",
-                     "dwc:identifiedBy" : "F. Bungartz",
-                     "dwc:county" : "Tulare",
-                     "idigbio:uuid" : "3c48ea66-c536-4929-aa78-0b21afc48b6a",
-                     "idigbio:version" : 4,
-                     "dwc:year" : "1985",
-                     "dwc:specificEpithet" : "penichra",
-                     "idigbio:links" : {
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/7c927849-94ed-4034-90e9-af34ac0cb47c"
-                        ]
-                     },
-                     "dwc:institutionCode" : "ASU",
-                     "dwc:scientificName" : "Buellia penichra",
-                     "dwc:locality" : "Kings Canyon National Park, Redwood Canyon, near the Fallen Goliath Tree, 3.2 km S of Redwood Canyon Trailhead on Hart Tree Trail",
-                     "dwc:occurrenceID" : "82570",
-                     "dwc:scientificNameAuthorship" : "(Tuck.) Hasse",
-                     "dwc:eventDate" : "1985-07-28",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:habitat" : "sequoia-fir-pine forest; white fir",
-                     "dwc:family" : "Physciaceae",
-                     "dwc:rights" : "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-                     "dwc:collectionID" : "urn:uuid:ca9232e9-9401-4c90-9845-d00fe37f0ac2",
-                     "idigbio:recordIds" : [
-                        "urn:uuid:3c48ea66-c536-4929-aa78-0b21afc48b6a"
-                     ],
-                     "dcterms:references" : "http://lichenportal.org/portal/collections/individual/index.php?occid=82570",
-                     "dwc:genus" : "Buellia",
-                     "dwc:country" : "USA",
-                     "dwc:month" : "7",
-                     "dcterms:modified" : "2012-11-05 23:33:19",
-                     "idigbio:etag" : "73c412dc75e30f6c13717f7619ca41e3562c2c09",
-                     "dwc:recordedBy" : "J.L. Blakeman",
-                     "dwc:stateProvince" : "California",
-                     "dwc:day" : "28",
-                     "dwc:recordNumber" : "304",
-                     "dwc:basisOfRecord" : "PreservedSpecimen",
-                     "idigbio:dateModified" : "2014-05-31T05:20:50.626Z",
-                     "dwc:catalogNumber" : "533278",
-                     "symbiota:verbatimScientificName" : "Buellia penichra",
-                     "idigbio:recordId" : "urn:uuid:3c48ea66-c536-4929-aa78-0b21afc48b6a"
-                  },
-                  "idigbio:dateModified" : "2014-05-31T05:20:50.626Z",
-                  "idigbio:uuid" : "3c48ea66-c536-4929-aa78-0b21afc48b6a",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:etag" : "73c412dc75e30f6c13717f7619ca41e3562c2c09"
-               },
-               "county" : "tulare",
-               "etag" : "73c412dc75e30f6c13717f7619ca41e3562c2c09",
-               "hasImage" : false,
-               "locality" : "kings canyon national park, redwood canyon, near the fallen goliath tree, 3.2 km s of redwood canyon trailhead on hart tree trail",
-               "stateprovince" : "california",
-               "family" : "physciaceae",
-               "recordids" : [
-                  "urn:uuid:3c48ea66-c536-4929-aa78-0b21afc48b6a"
-               ],
-               "flags" : [],
-               "recordnumber" : "304",
-               "specificepithet" : "penichra",
-               "catalognumber" : "533278",
-               "uuid" : "3c48ea66-c536-4929-aa78-0b21afc48b6a",
-               "datecollected" : "1985-07-28",
-               "occurrenceid" : "82570",
-               "collector" : "j.l. blakeman",
-               "basisofrecord" : "preservedspecimen",
-               "datemodified" : "2014-05-31",
-               "genus" : "buellia",
-               "country" : "usa",
-               "dqs" : 0.395348837209302,
-               "collectionid" : "urn:uuid:ca9232e9-9401-4c90-9845-d00fe37f0ac2",
-               "scientificname" : "buellia penichra"
-            },
-            "_type" : "records",
-            "_index" : "idigbio-1.4.0",
-            "_score" : 1,
-            "_id" : "3c48ea66-c536-4929-aa78-0b21afc48b6a"
-         },
-         {
-            "_id" : "3c48fa82-7d15-4c68-87ac-41186dc9a669",
-            "_score" : 1,
-            "_index" : "idigbio-1.4.0",
-            "_type" : "records",
-            "_source" : {
-               "kingdom" : "animalia",
-               "occurrenceid" : "9382b016-1ed8-11e3-bfac-90b11c41863e",
-               "datecollected" : "1961-01-10",
-               "datemodified" : "2014-06-05",
-               "specificepithet" : "pictus",
-               "infraspecificepithet" : "hispidus",
-               "order" : "rodentia",
-               "genus" : "liomys",
-               "dqs" : 0.534883720930233,
-               "eventdate" : "1961-1-10",
-               "institutioncode" : "ku",
-               "locality" : "mazatlan, 5 mi nw of",
-               "flags" : [
-                  "geopoint_low_precision"
-               ],
-               "class" : "mammalia",
-               "hasImage" : false,
-               "collector" : "lee m r",
-               "basisofrecord" : "preservedspecimen",
-               "institutionid" : "http://grbio.org/cool/iakn-125z",
-               "catalognumber" : "85788",
-               "uuid" : "3c48fa82-7d15-4c68-87ac-41186dc9a669",
-               "geopoint" : {
-                  "lon" : -106.460289348502,
-                  "lat" : 23.2802874825196
-               },
-               "collectioncode" : "kum",
-               "scientificname" : "liomys pictus hispidus",
-               "country" : "mexico",
-               "phylum" : "chordata",
-               "recordset" : "fb4a4330-9124-4013-a0e1-af42ee20cd16",
-               "data" : {
-                  "idigbio:data" : {
-                     "dwc:geodeticDatum" : "NAD27",
-                     "dwc:georeferencedBy" : "Juan Carlos Hern?ndez Barrios (CONABIO)",
-                     "idigbio:uuid" : "3c48fa82-7d15-4c68-87ac-41186dc9a669",
-                     "dwc:year" : "1961",
-                     "idigbio:version" : 1,
-                     "dwc:specificEpithet" : "pictus",
-                     "dwc:georeferencedDate" : "2003-4-29",
-                     "dwc:institutionCode" : "KU",
-                     "idigbio:links" : {
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/fb4a4330-9124-4013-a0e1-af42ee20cd16"
-                        ]
-                     },
-                     "dwc:scientificName" : "Liomys pictus hispidus",
-                     "dwc:verbatimCoordinateSystem" : "decimal degrees",
-                     "dwc:locality" : "MAZATLAN, 5 MI NW OF",
-                     "dwc:occurrenceID" : "9382b016-1ed8-11e3-bfac-90b11c41863e",
-                     "dwc:continent" : "North America",
-                     "dcterms:accessRights" : "http://biodiversity.ku.edu/research/university-kansas-biodiversity-institute-data-publication-and-use-norms",
-                     "dwc:eventDate" : "1961-1-10",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:family" : "Heteromyidae",
-                     "dwc:sex" : "F",
-                     "dwc:datasetName" : "University of Kansas Biodiversity Institute Mammalogy Collection",
-                     "idigbio:recordIds" : [
-                        "fb4a4330-9124-4013-a0e1-af42ee20cd16\\9382b016-1ed8-11e3-bfac-90b11c41863e"
-                     ],
-                     "dwc:collectionCode" : "KUM",
-                     "dwc:georeferenceSources" : "Instituto Nacional de Estad?stica Geograf?a e Inform?tica (INEGI), (2002) Localidades de la Rep?blica Mexicana, 2000. Obtenido de Principales Resultados por Localidad. XII Censo de Poblaci?n y Viviend",
-                     "dwc:genus" : "Liomys",
-                     "dwc:order" : "Rodentia",
-                     "dwc:preparations" : "SS; Tissue: false",
-                     "dwc:decimalLatitude" : "23.28",
-                     "dwc:decimalLongitude" : "-106.46",
-                     "dwc:country" : "MEXICO",
-                     "dwc:month" : "1",
-                     "dwc:class" : "Mammalia",
-                     "dcterms:modified" : "2010-01-13 14:02:26.0",
-                     "idigbio:etag" : "f62a10b30fc638c440a7cef4825cacde3a772fde",
-                     "dwc:recordedBy" : "LEE M R",
-                     "dwc:stateProvince" : "SINALOA",
-                     "dwc:day" : "10",
-                     "dcterms:rights" : "http://creativecommons.org/licenses/by/4.0/deed.en_US",
-                     "id" : "9382b016-1ed8-11e3-bfac-90b11c41863e",
-                     "dwc:locationRemarks" : "Assumed by road",
-                     "dwc:phylum" : "Chordata",
-                     "dwc:kingdom" : "Animalia",
-                     "dwc:institutionID" : "http://grbio.org/cool/iakn-125z",
-                     "dwc:basisOfRecord" : "PreservedSpecimen",
-                     "idigbio:dateModified" : "2014-06-05T03:19:50.719Z",
-                     "dwc:infraspecificEpithet" : "hispidus",
-                     "dwc:catalogNumber" : "85788"
-                  },
-                  "idigbio:version" : 1,
-                  "idigbio:recordIds" : [
-                     "fb4a4330-9124-4013-a0e1-af42ee20cd16\\9382b016-1ed8-11e3-bfac-90b11c41863e"
-                  ],
-                  "idigbio:links" : {
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/fb4a4330-9124-4013-a0e1-af42ee20cd16"
-                     ]
-                  },
-                  "idigbio:etag" : "f62a10b30fc638c440a7cef4825cacde3a772fde",
-                  "idigbio:uuid" : "3c48fa82-7d15-4c68-87ac-41186dc9a669",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:dateModified" : "2014-06-05T03:19:50.719Z"
-               },
-               "continent" : "north america",
-               "stateprovince" : "sinaloa",
-               "family" : "heteromyidae",
-               "recordids" : [
-                  "fb4a4330-9124-4013-a0e1-af42ee20cd16\\9382b016-1ed8-11e3-bfac-90b11c41863e"
-               ],
-               "etag" : "f62a10b30fc638c440a7cef4825cacde3a772fde"
-            }
-         },
-         {
-            "_index" : "idigbio-1.4.0",
-            "_type" : "records",
-            "_source" : {
-               "etag" : "c835f6f4cbe6b9b5729a4b8dd400dbcf99aa0efa",
-               "hasImage" : false,
-               "class" : "insecta",
-               "locality" : "7mi e of joseph",
-               "family" : "cicadellidae",
-               "stateprovince" : "oregon",
-               "recordids" : [
-                  "urn:uuid:3775de90-11a7-11e3-8e88-0026552be7ea"
-               ],
-               "flags" : [],
-               "typestatus" : "none",
-               "eventdate" : "1969-08-10/0000-00-00",
-               "barcodevalue" : "osac0000765058",
-               "phylum" : "arthropoda",
-               "recordset" : "5eb57cb9-a6e8-4f84-abde-41a6bfd2080b",
-               "data" : {
-                  "idigbio:etag" : "c835f6f4cbe6b9b5729a4b8dd400dbcf99aa0efa",
-                  "idigbio:dateModified" : "2014-01-24T00:14:57.659Z",
-                  "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                  "idigbio:uuid" : "3c48fd52-8fd0-41eb-9dcf-11d41c663806",
-                  "idigbio:version" : 0,
-                  "idigbio:data" : {
-                     "dwc:scientificNameAuthorship" : "Oman,1933",
-                     "dwc:eventDate" : "1969-08-10/0000-00-00",
-                     "idigbio:createdBy" : "872733a2-67a3-4c54-aa76-862735a5f334",
-                     "dwc:locality" : "7mi E of Joseph",
-                     "dwc:samplingProtocol" : "Unknown",
-                     "idigbio:recordIds" : [
-                        "urn:uuid:3775de90-11a7-11e3-8e88-0026552be7ea"
-                     ],
-                     "dwc:sex" : "Male",
-                     "dwc:datasetName" : "Tri-Trophic Database Thematic Collection Network Project Dataset",
-                     "dwc:family" : "Cicadellidae",
-                     "idigbio:uuid" : "3c48fd52-8fd0-41eb-9dcf-11d41c663806",
-                     "dwc:county" : "Wallowa",
-                     "idigbio:barcodeValue" : "OSAC0000765058",
-                     "dwc:individualCount" : "1",
-                     "idigbio:subgenus" : "Aceratagallia",
-                     "dwc:lifeStage" : "Adult",
-                     "idigbio:links" : {
-                        "recordset" : [
-                           "http://api.idigbio.org/v1/recordsets/5eb57cb9-a6e8-4f84-abde-41a6bfd2080b"
-                        ],
-                        "owner" : [
-                           "872733a2-67a3-4c54-aa76-862735a5f334"
-                        ]
-                     },
-                     "dwc:year" : "1969",
-                     "idigbio:version" : 0,
-                     "dwc:specificEpithet" : "fuscoscripta",
-                     "dwc:phylum" : "Arthropoda",
-                     "dwc:kingdom" : "Animalia",
-                     "idigbio:dateModified" : "2014-01-24T00:14:57.659Z",
-                     "dwc:basisOfRecord" : "PreservedSpecimen",
-                     "idigbio:associateCondition" : "Unknown",
-                     "dwc:recordedBy" : "Oman",
-                     "idigbio:etag" : "c835f6f4cbe6b9b5729a4b8dd400dbcf99aa0efa",
-                     "dwc:stateProvince" : "Oregon",
-                     "idigbio:tribe" : "Agalliini",
-                     "dcterms:rightsHolder" : "Oregon State Arthropod Collection, Oregon State University",
-                     "idigbio:recordId" : "urn:uuid:3775de90-11a7-11e3-8e88-0026552be7ea",
-                     "idigbio:subfamily" : "Agalliinae",
-                     "dwc:order" : "Hemiptera",
-                     "dwc:genus" : "Ceratagallia ",
-                     "dwc:country" : "United States",
-                     "dcterms:modified" : "2013-10-07 15:04:14",
-                     "dwc:class" : "Insecta",
-                     "dwc:higherClassification" : "Animalia;Arthropoda;Insecta;Hemiptera;Cicadellidae;Agalliinae;Agalliini",
-                     "dwc:typeStatus" : "None",
-                     "dwc:ownerInstitutionCode" : "OSAC"
-                  },
-                  "idigbio:links" : {
-                     "owner" : [
-                        "872733a2-67a3-4c54-aa76-862735a5f334"
-                     ],
-                     "recordset" : [
-                        "http://api.idigbio.org/v1/recordsets/5eb57cb9-a6e8-4f84-abde-41a6bfd2080b"
-                     ]
-                  },
-                  "idigbio:recordIds" : [
-                     "urn:uuid:3775de90-11a7-11e3-8e88-0026552be7ea"
-                  ]
-               },
-               "county" : "wallowa",
-               "country" : "united states",
-               "dqs" : 0.441860465116279,
-               "genus" : "ceratagallia",
-               "highertaxon" : "animalia;arthropoda;insecta;hemiptera;cicadellidae;agalliinae;agalliini",
-               "order" : "hemiptera",
-               "scientificname" : "ceratagallia fuscoscripta",
-               "specificepithet" : "fuscoscripta",
-               "uuid" : "3c48fd52-8fd0-41eb-9dcf-11d41c663806",
-               "kingdom" : "animalia",
-               "datemodified" : "2014-01-24",
-               "basisofrecord" : "preservedspecimen",
-               "datecollected" : "1969-08-10",
-               "collector" : "oman"
-            },
-            "_id" : "3c48fd52-8fd0-41eb-9dcf-11d41c663806",
-            "_score" : 1
+            "_id" : "f713ac44-c647-4ecd-a194-a2063cbd1b73"
          }
-      ],
-      "total" : 17853817,
-      "max_score" : 1
+      ]
    },
-   "timed_out" : false,
-   "_shards" : {
-      "successful" : 10,
-      "failed" : 0,
-      "total" : 10
-   }
+   "took" : 132,
+   "timed_out" : false
 }
